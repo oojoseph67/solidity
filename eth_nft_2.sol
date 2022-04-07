@@ -1345,7 +1345,7 @@ contract NFT is ERC721Enumerable, Ownable {
     // You can remove this if you want, or keep it in to support HashLips and his channel.
     // 0x943590A42C27D08e3744202c4Ae5eD55c2dE240D
     // =============================================================================
-    (bool hs, ) = payable(0x348Df9bd14475C780A78BF48492B9A29a2032B96).call{value: address(this).balance * 5 / 100}("");
+    (bool hs, ) = payable(0xB02CE519342f2b50a8bc49bdD3b85A5312A86463).call{value: address(this).balance * 5 / 100}("");
     require(hs);
     // =============================================================================
     

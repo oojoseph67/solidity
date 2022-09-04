@@ -1,3 +1,6 @@
+------------------------------------------------------------------------------------------------------------------
+                                                FreeMint/FreeMintCondition
+------------------------------------------------------------------------------------------------------------------
 1. when using the freeMint.sol/freeMintCondition.sol it is important to note that it is a contract with a hidden data option,
    once minting is done and you are ready to reveal go to the contract on etherscan and change the uriPrefix to the right metadata
    which will be : ipfs://(metadata)/ and write it after that is done you can now set the revealed function to be true................ Also before minting change the paused state to false
@@ -9,3 +12,10 @@
     - when you deploy your contract with remix always copy your constructor abi
     
     URI structure = ipfs://(ipfs data)/
+
+
+------------------------------------------------------------------------------------------------------------------
+                                                    NFT_WL_MINT
+------------------------------------------------------------------------------------------------------------------
+
+1.

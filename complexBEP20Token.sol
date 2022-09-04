@@ -1,12 +1,5 @@
 /**
- *Submitted for verification at BscScan.com on 2022-06-02
-*/
-
-/**
-Can you taste that? $BULLS feast on Bear Blood.
-telegram: t.me/bullsworldbsc
-website: bullsworld.io
-
+ *Submitted for verification at BscScan.com on 2022-06-23
 */
 
 // SPDX-License-Identifier: MIT
@@ -374,20 +367,19 @@ contract BullsWorld is IBEP20, Auth {
     using SafeMath for uint256;
 
     // Addresses
-    // This needs to be changed
-    // address BTCB = 0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c; 
-    // address WBNB = 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c;
-    // address DEAD = 0x000000000000000000000000000000000000dEaD;
-    // address ZERO = 0x0000000000000000000000000000000000000000;
-    // address DEV = 0xE924512E05C828c0881f46508e27Bb59238e87b9;
+    address BTCB = 0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c; 
+    address WBNB = 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c;
+    address DEAD = 0x000000000000000000000000000000000000dEaD;
+    address ZERO = 0x0000000000000000000000000000000000000000;
+    address DEV = 0x7CABBE6A7A2f9a191e4A918B560b9b1b11A2C52a;
 
     // These are owner by default
     address private autoLiquidityReceiver;
     address private marketingFeeReceiver;
 
     // Name and symbol
-    string constant _name = "Bulls World";
-    string constant _symbol = "BULLS";
+    string constant _name = "Bulls World 2.0";
+    string constant _symbol = "BULLS2.0";
     uint8 constant _decimals = 18;
 
     // Total supply
